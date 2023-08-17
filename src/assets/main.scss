@@ -1,0 +1,31 @@
+@import './base.scss';
+
+
+
+.container{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-family: Inter;
+  @media (max-width:1368px) {
+      width: 100%;
+  }
+
+}
+.inner_container{
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+}
+.subtitle{
+  color: #0A2641;
+        
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;  
+}
+
+
+
+

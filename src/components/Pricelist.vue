@@ -82,19 +82,19 @@
                             <div>ОСН</div>
                             <div>
                             {{ item.osn}}
-                            <sup class="price_reg" v-if="checkType(item.osn)" >руб</sup></div></div>
+                            <sup class="price_reg" v-if="checkType(item.osn)" > руб</sup></div></div>
                             <div v-else :class="{black:!checkType(item.usn6)}">
-                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.osn)" >руб</sup>
+                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.osn)" > руб</sup>
                     </div>
                     </div>
                     <div class="service_item_price">
                         <div v-if="isLowScreen" class="lowScreen">
                             <div>УСН 15%</div>
                             <div>{{ item.usn15}}
-                            <sup class="price_reg" v-if="checkType(item.usn15)" >руб</sup></div>
+                            <sup class="price_reg" v-if="checkType(item.usn15)" > руб</sup></div>
                             </div>
                             <div v-else :class="{black:!checkType(item.usn6)}">
-                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.usn15)" >руб</sup>
+                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.usn15)" > руб</sup>
                     </div>
                     </div>
                     <div class="service_item_price">
@@ -102,9 +102,9 @@
                             <div>УСН 6%</div>
                             <div>
                             {{ item.osn}}
-                            <sup class="price_reg" v-if="checkType(item.usn6)" >руб</sup></div></div>
+                            <sup class="price_reg" v-if="checkType(item.usn6)" > руб</sup></div></div>
                             <div v-else :class="{black:!checkType(item.usn6)}">
-                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.usn6)" >руб</sup>
+                        {{ item.osn}}<sup class="price_reg" v-if="checkType(item.usn6)" > руб</sup>
                     </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
             </div>
         </div>
         <div v-else>
-        <Carousel :items-to-show="1.2" :autoplay="2000" :wrap-around="true">
+        <Carousel :items-to-show="1"  :wrap-around="true">
     <Slide v-for="slide in 3" :key="slide">
         <div class="cards_flex" style="height:100%; text-align: left;">
         <div class="cards" style="height:100%; text-align: left;">
@@ -381,7 +381,7 @@ import {ref,onMounted,onUnmounted } from 'vue';
     color: #0A2641;
 
 font-size: 14px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px; 
     @media (max-width:420px) {
@@ -393,7 +393,7 @@ line-height: 20px;
     color: #0A2641;
 
 font-size: 16px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 24px; 
 }
@@ -459,7 +459,7 @@ line-height: 24px;
     color: #0A2641;
 
 font-size: 18px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 24px;
 }
@@ -468,7 +468,7 @@ line-height: 24px;
     color: #0A2641;
 
 font-size: 12px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px; 
     flex: 1 0 calc(100% - 360px);
@@ -484,7 +484,7 @@ line-height: 20px;
         width: 100%;
     }
 font-size: 18px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 24px; 
 }
@@ -528,7 +528,7 @@ position: relative;
     color: var(--blue2);
 
 font-size: 18px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 28px; 
 @media (max-width:420px) {
@@ -547,7 +547,7 @@ line-height: 28px;
     color: #000;
 
 font-size: 14px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px; 
 @media (max-width:420px) {
@@ -560,7 +560,7 @@ line-height: 20px;
     color: #5F83A7;
 
 font-size: 12px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px;
 }
@@ -569,7 +569,7 @@ line-height: 20px;
     color: #4851FD;
 
 font-size: 18px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px; 
 }
@@ -583,7 +583,7 @@ margin-top: auto;
     color: #5F83A7;
 
 font-size: 12px;
-font-style: normal;
+
 font-weight: 600;
 line-height: 20px; 
 margin-top:20px;

@@ -77,9 +77,11 @@
    
     <Addvantages/>
     <Pricelist/>
-    <News/>
+    <Swiper/>
+    <!-- <News/> -->
     <Askmodal/>
      <Footeritems/>
+     
 </template>
 
 <script setup>
@@ -89,6 +91,7 @@ import News from './News.vue';
 import Askmodal from './Askmodal.vue';
 import Footeritems from './Footeritems.vue';
 import HeaderModal from './HeaderModal.vue'
+import Swiper from './Swiper.vue';
 
 import {ref,onMounted,onUnmounted } from 'vue';
     const consultationButton = ref(false)
@@ -201,11 +204,12 @@ const closeHeaderModal = (bool)=>{
         }
     .logo_text{
         color: var(--white);
-
+       
         font-size: 24px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: normal;
+        
     }   
     .nav_list{
         display: flex;
@@ -217,7 +221,7 @@ const closeHeaderModal = (bool)=>{
         color: var(--white);
 
         font-size: 15px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 28px; 
         margin-right: 20px;
@@ -235,7 +239,7 @@ const closeHeaderModal = (bool)=>{
         color: var(--white);
         
         font-size: 18px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 28px;
         margin-right: 10px; 
@@ -255,6 +259,7 @@ const closeHeaderModal = (bool)=>{
         border-radius: 32px;
         background: rgba(255, 255, 255, 0.15);
         color: var(--white);
+        font-family: 'Inter';
         @media (max-width:600px) {
             display: none;
         }
@@ -270,7 +275,8 @@ const closeHeaderModal = (bool)=>{
         color: var(--white);
         
         font-size: 56px;
-        font-style: normal;
+        
+        
         font-weight: 700;
         line-height: 72px; 
         @media (max-width: 420px) {
@@ -284,7 +290,7 @@ const closeHeaderModal = (bool)=>{
         margin: 35px 0;
         
         font-size: 18px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 28px; 
         opacity: 0.5;
@@ -299,7 +305,7 @@ const closeHeaderModal = (bool)=>{
         background: linear-gradient(169deg, #4851FD 0%, #FF6A2A 100%), #4851FD;
         color: var(--white);
         font-size: 18px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 24px;  
         @media (max-width: 420px) {

@@ -132,7 +132,7 @@ height: auto;
     color: #FFF;
 
     font-size: 36px;
-    font-style: normal;
+    
     font-weight: 700;
     line-height: 48px; 
 }
@@ -145,7 +145,7 @@ label, input{
     
 
     font-size: 14px;
-    font-style: normal;
+    
     font-weight: 600;
     line-height: 28px; 
     
@@ -163,7 +163,7 @@ input,textarea{
         padding: 15px;
         
 
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 28px;
     }
@@ -188,7 +188,7 @@ input,textarea{
     color: var(--white);
 
     font-size: 14px;
-    font-style: normal;
+    
     font-weight: 600;
     line-height: 20px; 
     opacity: 0.5;

@@ -117,7 +117,7 @@
         color: var(--white);
 
         font-size: 20px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 32px; 
             @media (max-width:420px) {
@@ -129,10 +129,10 @@
         color: var(--white);
 
         font-size: 16px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 32px; 
-        opacity: 0.5;
+        
             @media (max-width:420px) {
             font-size: 16px;
         

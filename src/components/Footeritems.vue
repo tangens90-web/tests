@@ -92,7 +92,7 @@
     .footer_text{
         color: #0A2641;
         font-size: 16px;
-        font-style: normal;
+        
         font-weight: 600;
         line-height: 28px; 
         padding-right: 30px;
@@ -102,7 +102,7 @@
         color: #4851FD;
 
         font-size: 14px;
-        font-style: normal;
+       
         font-weight: 600;
         line-height: 28px; 
         text-decoration: none;
@@ -139,7 +139,7 @@
             color: #0A2641;
             
             font-size: 24px;
-            font-style: normal;
+            
             font-weight: 600;
             line-height: normal;
         }
@@ -150,7 +150,7 @@
         .footer_number {
             color: #0A2641;
             font-size: 24px;
-            font-style: normal;
+            
             font-weight: 600;
             line-height: 28px; 
 
@@ -177,7 +177,7 @@
             color: #5F83A7;
            
             font-size: 11px;
-            font-style: normal;
+            
             font-weight: 600;
             line-height: 16px; 
             opacity:0.9;
